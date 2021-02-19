@@ -19,9 +19,6 @@ def user_input
   converted_input = input_to_index(user_input)
 end
 
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-expect {move(board, 4)}.to_not raise_error
-end
 
 def update_array_at_with (board, index, value)
   array [index] = value
