@@ -5,9 +5,5 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 display_board
 puts "Where would you like to go? #{input}"
-input = gets.strip
-board(input)
 
-input_to_index
-
-update_array_at_with (board, 4, "X")
+display_board
