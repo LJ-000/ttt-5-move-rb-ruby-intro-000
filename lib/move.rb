@@ -8,6 +8,8 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board (board)
+end
+
 
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
