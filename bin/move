@@ -10,4 +10,4 @@ board(input)
 
 input_to_index
 
-update_array_at_with (board, O, "X")
+update_array_at_with (board, 4, "X")
