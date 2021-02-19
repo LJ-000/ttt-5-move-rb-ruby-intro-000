@@ -21,4 +21,6 @@ def update_array_at_with (board, index, value)
   array [index] = value
 end
 
+value = "X"
+
 update_array_at_with (board,0, "X")
