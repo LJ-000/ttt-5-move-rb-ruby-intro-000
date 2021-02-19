@@ -1,6 +1,6 @@
 def display_board(board)
 
-  puts "Welcome to Tic Tac Toe! Where would you like to go? #{input}."
+  puts "Welcome to Tic Tac Toe!"
 
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -10,6 +10,10 @@ def display_board(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board
+
+puts "Where would you like to go?"
+
 def update_array_at_with (array, index, value)
   array [index] = value
 end
