@@ -1,6 +1,6 @@
 def display_board(board)
 
-  puts "Welcome to Tic Tac Toe! Where would you like to go? #{value}."
+  puts "Welcome to Tic Tac Toe! Where would you like to go? #{input}."
 
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
