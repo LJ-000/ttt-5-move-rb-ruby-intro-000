@@ -28,4 +28,4 @@ end
 update_array_at_with (board, 5 , "X")
 end
 
-display_board
+display_board (board)
