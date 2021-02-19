@@ -12,8 +12,8 @@ display_board (board)
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-def input_to_index (user_input)
-  user_input.to_i -1
+def input_to_index (index)
+  index.to_i -1
 end
 
 
